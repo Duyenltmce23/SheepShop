@@ -2,10 +2,10 @@ import React from 'react'
 import ProductCard from '../../../components/product/ProductCard'
 import CustomButton from '../../../components/ui/CustomButton'
 
-const BestSeller = () => {
+const BestSeller = (props) => {
   return (
     <div className='m-20'>
-        <p className='text-center text-2xl font-medium'>BEST SELLER</p>
+        <p className='text-center text-2xl font-medium'>{props.title}</p>
         <div className='mt-10 flex justify-between'>
             <div className='w-1/2 relative'>
                 <img src="src/assets/images/best_seller/best_seller.webp" alt="best_seller"

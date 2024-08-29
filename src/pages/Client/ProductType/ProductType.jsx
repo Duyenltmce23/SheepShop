@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from '../../../components/layout/Header'
+import Footer from '../../../components/layout/Footer'
+import ProductsHome from '../HomePage/ProductsHome'
+import Filter from './Filter'
 
 const ProductType = () => {
   return (
-    <div>ProductType</div>
+    <div>
+      <Header/>
+      <Filter/>
+      <ProductsHome title=''/>
+      <Footer/>
+    </div>
   )
 }
 

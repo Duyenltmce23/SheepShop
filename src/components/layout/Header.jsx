@@ -27,19 +27,21 @@ const Header = () => {
         </div>
         <ul className='flex w-1/3 items-center'>
           <li className='pr-10 hover:text-red-600 font-semibold'>
-            <a href='#' className=' hover:border-b-2 hover:border-red-600'>
-              TRANG CHỦ
-            </a>
+            <li className=' hover:text-red-600 font-semibold'>
+              <Link to='/' className=' hover:border-b-2 hover:border-red-600'>
+                TRANG CHỦ
+              </Link>
+            </li>
           </li>
           <li className='pr-10 hover:text-red-600 font-semibold'>
-            <a href='/nu' className=' hover:border-b-2 hover:border-red-600'>
+            <Link to='/nu' className=' hover:border-b-2 hover:border-red-600'>
               NỮ
-            </a>
+            </Link>
           </li>
           <li className='pr-10 hover:text-red-600 font-semibold'>
-            <a href='#' className=' hover:border-b-2 hover:border-red-600'>
+            <Link to='/nam' className=' hover:border-b-2 hover:border-red-600'>
               NAM
-            </a>
+            </Link>
           </li>
         </ul>
         <div className='w-1/3 flex items-center'>
